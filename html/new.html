@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <h1> HEllo World</h1>
+    <h1> HEllo World &lt;h1&gt;</h1>
+    <h2> HEllo World</h2>
+    <h3> HEllo World</h3>
+    <h4> HEllo World</h4>
+    <h5> HEllo World</h5>
+    <h6> HEllo World</h6>
+    <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> <i>Ullam quisquam id maiores ab exercitationem.</i> <small>Odit vitae eos dignissimos pariatur, praesentium molestiae quasi perspiciatis voluptas voluptatibus maxime quisquam, sed officia illo quaerat non ipsam esse ducimus beatae suscipit ut.</small> 10 <sup>2</sup> 10<sub>2</sub>Tenetur suscipit illo ipsa laudantium voluptatibus ipsum nam magni doloribus, consequuntur asperiores!</p>
+    <hr>
+    <h2>Shopping list</h2>
+    <ul>
+        <li>milk</li>
+        <li>egg</li>
+        <li>butter</li>
+        <li>oak</li>
+        <li>oats</li>
+        <li>lassi</li>
+        <li>water</li>
+    </ul>
+    <hr>
+    <h2>Maggie recipe</h2>
+    <ol type ="A">
+        <li>milk</li>
+        <li>egg</li>
+        <li>butter</li>
+        <li>oak</li>
+        <ul>
+            <li>rice</li>
+            <li>atta</li>
+            <li>maize</li>
+            <li>rice</li>
+            <li>rice</li>
+        </ul>
+        <li>oats</li>
+        <li>lassi</li>
+        <li>water</li>
+    </ol>
+    <a href = "https://www.google.com">Google</a> <br>
+    <a href = "https://www.yahoo.com" target="_blank">Yahoo</a> <br>
+    <a href="link.html" target="_blank">Link</a>
+    <a href="home.html" target="_blank">Home</a>
+    <a href="https://www.edx.org/" target="_blank" rel="noopener noreferrer"><h2>Learn from here</h2></a>
+    <a href ="notes/info.txt"target="_blank"><h4>INFO</h4></a>
+    <a href ="notes/keyboard.txt"target="_blank"><h4>Typeprac</h4></a>
+    <hr>
+    <img src="hi/hi.png" alt="Nasa report"width="350"> <br>
+    <img src="hi/him.png" alt="Nasa report"width="350"> <br>
+    <hr>
+    <video src="video/video.mp4"width ="400" autoplay></video> <br>
+    <video src="video/video.mp4"width ="400" controls></video> <br>
+    <video src="video/video.mp4"width ="400" controls loop></video> <br>
+    <video src="video/video.mp4"width ="400" controls muted></video> <br>
+    <video src="video/video.mp4"width ="400" controls poster = "hi/hi.png"></video> <br>
+    <iframe width="400" height="300" src="https://www.youtube.com/embed/xMmgIoUN4eA" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
+    <iframe src="https://www.youtube.com/" frameborder="0" width ="700"></iframe>
+    <table border="1">
+      <thead>
+      <tr>
+        <th>sub</th>
+        <th>sub1</th>
+        <th>sub2</th>
+        <th>sub3</th>
+        <th>sub4</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>eng</td>
+        <td>75</td>
+        <td>70</td>
+        <td>65</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td>hin</td>
+        <td>75</td>
+        <td>70</td>
+        <td>65</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td>ben</td>
+        <td>75</td>
+        <td>70</td>
+        <td>65</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td>ecog</td>
+        <td>75</td>
+        <td>70</td>
+        <td>65</td>
+        <td>60</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <th>Result:Pass</th> 
+      <th colspan="5">Result:Pass</th>
+    </tfoot>
+    </table>  
+    <form action="">
+      <h1>Payment form</h1>
+      <p>Required fields are as follows *</p>
+      <h2>Contact Info</h2>
+      <p>Name:<input type="text" name="name"></p>
+      <p>Name:*<input type="text" name="name" required></p>
+      <p>
+        Male <input type="radio"name="gender" id=>
+        Female <input type="radio"name="gender" id=>
+      </p>
+      <p>
+        Male <input type="radio"name="gende" id=>
+        Female <input type="radio"name="gener" id=>
+      </p>
+      <p></p>
+      <fieldset>
+          <legend>Gender</legend>
+          Male <input type="radio"name="gender" id=>
+          Female <input type="radio"name="gender" id=>
+        </p>
+      </fieldset>
+      <p>Address: <textarea name="address" id="address" cols="300" rows="10"></textarea></p>
+      <p>Email: <input type="email"name="email"id="email"></p>
+      <p>Pincode<input type="number" name="pincode"id ="pincode"></p>
+      <p>
+        Card type:
+        <select name="card_type" id="card">
+          <option value="">---Select a card</option>
+          <option value="Visa">visa</option>
+          <option value="Rupay">rupay</option>
+          <option value="Mastercard">mastercard</option>
+        </select>
+      </p>
+      <p>
+        Card Number <input type="number" name="card_number" id="card_number">
+      </p>
+      <p>
+        Expiration date: <input type="date" name="exp_date" id="exp_date">
+      </p>
+      <p>CVV <input type="password" name="CVV" id ="cvv"></p>
+      <input type="submit" value="Pay now">
+    </form>
+
+    <p>hey how are you</p>
+    <p>whats up</p>      <!Block element-->
+    <em>hi</em>
+    <em>hi</em>        <!Inline element-->
+  </body>
+</html>
